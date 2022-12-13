@@ -1,31 +1,31 @@
 <style>
-  .top-left {
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: red;
-  }
-  .bottom-left {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    background-color: green;
-  }
-  .top-right {
-    position: absolute;
-    top: 0;
-    right: 0;
-    background-color: blue;
-  }
-  .bottom-right {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    background-color: yellow;
-  }
+#top-left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  float: left;
+}
+
+#top-right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  float: right;
+}
+
+#bottom-left {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  float: left;
+}
+
+#bottom-right {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  float: right;
+}
+
 </style>
 
-<div class="top-left">Top Left</div>
-<div class="bottom-left">Bottom Left</div>
-<div class="top-right">Top Right</div>
-<div class="bottom-right">Bottom Right</div>
